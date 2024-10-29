@@ -1,0 +1,147 @@
+
+
+/*ul{
+   
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    padding: 5px 20px;
+    
+    background: url(seta.png) no-repeat left center;
+}*/
+
+
+
+/************************************************/
+/*navegacão vertical css
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul a{
+    width: 200px;
+    height: 40px;
+    display: block;
+    color: #000;
+    text-decoration: none;
+    text-indent: 40px;
+    line-height: 40px;
+    background: #f7b600 url(menu.png) no-repeat left bottom;
+}
+
+a:hover{
+    background-position: right bottom;
+    background-color: #f99200;
+    color: #fff;
+}
+
+#home #navegacao .home a, 
+#sobre #navegacao .sobre a,
+#servicos #navegacao .servicos a,
+#noticias #navegacao .noticias a,
+#contatos #navegacao .contatos a{
+    background-position: right bottom;
+    background-color: #f99200;
+    color: #fff;
+}*/
+
+/******************************/
+/*Navegaçao Horizontal css
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 720px;
+    background: #159cb0 url(imagens/fundo-horizontal.png) repeat-x;
+    float: left;
+}
+
+ul li{
+    float: left; /* display: inline;
+}
+
+ul a{
+    display: block;
+    text-decoration: none;
+    padding: 0 2em;
+    line-height: 2.2em;
+    color: #fff;
+    background: url(imagens/divisor.png) repeat-y left top;
+}
+
+ul .primeiro a{
+    background: none;
+}
+
+ul a:hover {
+    color: #085662;
+    background: #44cade;
+}*/
+
+/*************************************************/
+/*Navegaçaõ com abas*/
+
+body{
+    font-family: 'Trebuchet MS', 'Helvetica', 'sans-serif';
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 720px;
+}
+
+ul li{
+    float: left;
+    background: url(imagemabas/aba-direita.png) no-repeat top right;
+}
+
+li a {
+    display: block;
+    padding: 0 2em;
+    line-height: 3em;
+    text-decoration: none;
+    background: url(imagemabas/aba-esquerda.png) no-repeat top left;
+    color: #fff;
+}
+
+ul a:hover{
+    color: #894a1f;
+}
+
+ul #atual{
+    background: url(imagemabas/aba-direita-atual.png) no-repeat top right;
+}
+
+ul #atual a {
+    background: url(imagemabas/aba-esquerda-atual.png) no-repeat top left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

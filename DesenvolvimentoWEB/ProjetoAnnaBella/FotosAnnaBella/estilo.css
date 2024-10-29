@@ -1,0 +1,56 @@
+body{
+    background: arial, helvetica, sans-serif;
+    background-color: #d2d2c1;
+    background-image: url(fundo.png)
+}
+
+#topo{
+    border-image: 10px;
+    border-color: brown;
+}
+
+.menu{
+    background-color: gainsboro;
+    width: 885px;
+    color: #c5c5b2;
+    padding: 18px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#Sobre{
+    box-sizing: border-box;
+    padding: 10px;
+    width: 920px;
+    background-color: azure;
+}
+
+#rodape{
+    width: 920px;
+    font: bold;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: #4b566a;
+    font-weight: bold;
+}
+
+#dire{
+    font: bold;
+    font-size: 20px;
+}
+
+#publifoto{
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: azure;
+    width: 920px;
+}
+
+img{
+    border-style: solid;
+    color: salmon;
+    border-width: 10px;
+}
